@@ -1,8 +1,7 @@
-
-  
+import { useContext } from "react"  
 
 function CommentCard({ comment, onDelete }) {
-    const { currentUser } = useContext(CurrentUser)
+    const { currentUser } = useContext(currentUser)
 
     let deleteButton = null;
 
